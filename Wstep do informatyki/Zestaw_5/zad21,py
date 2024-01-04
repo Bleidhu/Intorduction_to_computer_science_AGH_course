@@ -1,0 +1,13 @@
+def zadanie(T, sum):
+
+    n = len(T)
+
+    w = [False for _ in range(n)]
+    k = [False for _ in range(n)]
+    def rek(T, s, w, k, war, aw, ak):
+        if(war == sum):
+            return True
+        if(aw == ak == 8):
+            return False
+        else:
+            for
